@@ -18,8 +18,8 @@
             "modalEdit": false,
             "dataSrc": "values",
             "values": [
-                { "label": "Yes", "value": "yes", "shortcut": "" },
-                { "label": "No", "value": "no", "shortcut": "" }
+                { "label": "Yes", "value": "1", "shortcut": "" },
+                { "label": "No", "value": "0", "shortcut": "" }
             ],
             "dataType": "",
             "valueProperty": "",
@@ -84,7 +84,7 @@
             "addons": [],
             "inputType": "radio",
             "fieldSet": false,
-            "id": "ep76apj",
+            "id": "ernuw3b",
             "defaultValue": ""
         },
         {
@@ -103,31 +103,34 @@
             "tableView": false,
             "modalEdit": false,
             "dataSrc": "values",
-            "defaultValue": { "a": false },
+            "defaultValue": {
+                "a": false,
+                "internalAuditDepartmentOfTheLicensedCorporation": false,
+                "otherDepartmentSOfTheLicensedCorporation": false,
+                "internalAuditDepartmentOfAGroupOrAffiliatedCompany": false,
+                "thirdPartyIes": false,
+                "othersPleaseSpecify": false
+            },
             "values": [
                 {
                     "label": "Internal Audit department of the Licensed Corporation",
-                    "value": "internalAuditDepartmentOfTheLicensedCorporation",
+                    "value": "1",
                     "shortcut": ""
                 },
                 {
                     "label": "Other  department(s) of the Licensed Corporation",
-                    "value": "otherDepartmentSOfTheLicensedCorporation",
+                    "value": "2",
                     "shortcut": ""
                 },
                 {
                     "label": "Internal Audit department of a group or affiliated company",
-                    "value": "internalAuditDepartmentOfAGroupOrAffiliatedCompany",
+                    "value": "3",
                     "shortcut": ""
                 },
-                {
-                    "label": "Third party(ies)",
-                    "value": "thirdPartyIes",
-                    "shortcut": ""
-                },
+                { "label": "Third party(ies)", "value": "4", "shortcut": "" },
                 {
                     "label": "Others, please specify:",
-                    "value": "othersPleaseSpecify",
+                    "value": "other",
                     "shortcut": ""
                 }
             ],
@@ -160,7 +163,12 @@
             "key": "selectBoxes",
             "tags": [],
             "properties": {},
-            "conditional": { "show": null, "when": null, "eq": "", "json": "" },
+            "conditional": {
+                "show": true,
+                "when": "doesTheLicensedCorporationHaveAnyInternalAuditFunctionBq17019",
+                "eq": "1",
+                "json": ""
+            },
             "customConditional": "",
             "logic": [],
             "attributes": {},
@@ -194,7 +202,7 @@
             "allowMultipleMasks": false,
             "addons": [],
             "fieldSet": false,
-            "id": "eesn02"
+            "id": "en0x7c"
         },
         {
             "type": "button",
@@ -205,7 +213,7 @@
             "action": "submit",
             "disableOnInvalid": true,
             "theme": "primary",
-            "id": "eponfdf",
+            "id": "ev4ul4",
             "input": true,
             "placeholder": "",
             "prefix": "",
