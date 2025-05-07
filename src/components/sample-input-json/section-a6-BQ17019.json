@@ -84,7 +84,7 @@
             "addons": [],
             "inputType": "radio",
             "fieldSet": false,
-            "id": "ea0qvh",
+            "id": "eu3sgz9",
             "defaultValue": ""
         },
         {
@@ -137,11 +137,7 @@
                     "value": "4",
                     "shortcut": ""
                 },
-                {
-                    "label": "(e) Others, please specify:",
-                    "value": "other",
-                    "shortcut": ""
-                }
+                { "label": "(e) Others", "value": "other", "shortcut": "" }
             ],
             "valueProperty": "",
             "persistent": true,
@@ -211,7 +207,7 @@
             "allowMultipleMasks": false,
             "addons": [],
             "fieldSet": false,
-            "id": "e6dnyb"
+            "id": "egrnyl4"
         },
         {
             "label": "2(a). Please specify the number of staff in the department: [BQ17020_01_01]",
@@ -296,7 +292,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e5esc3",
+            "id": "et6wh3q",
             "labelWidth": 80,
             "defaultValue": null
         },
@@ -364,7 +360,7 @@
             "conditional": {
                 "show": true,
                 "when": "selectBoxes",
-                "eq": "1",
+                "eq": "2",
                 "json": ""
             },
             "customConditional": "",
@@ -379,6 +375,7 @@
                 "height": ""
             },
             "type": "textfield",
+            "labelWidth": 60,
             "dataGridLabel": false,
             "delimiter": false,
             "requireDecimal": false,
@@ -386,9 +383,8 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "ecg1ey",
-            "defaultValue": "",
-            "labelWidth": 60
+            "id": "evtkca8",
+            "defaultValue": ""
         },
         {
             "label": "2(b)(ii). Please specify the number of staff in the department who is responsible for performing the internal audit function: [BQ17020_02_02]",
@@ -477,7 +473,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "e3tfz19",
+            "id": "e8y4xcs",
             "defaultValue": ""
         },
         {
@@ -496,7 +492,7 @@
             "type": "number",
             "labelWidth": 60,
             "input": true,
-            "id": "eluhyoh",
+            "id": "e9f9iik",
             "placeholder": "",
             "prefix": "",
             "customClass": "",
@@ -640,11 +636,11 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "ewtef28",
+            "id": "eeebt1p",
             "defaultValue": ""
         },
         {
-            "label": "2(e). Please specify",
+            "label": "2(e). Others, please specify",
             "labelPosition": "left-left",
             "placeholder": "",
             "description": "",
@@ -707,7 +703,7 @@
             "conditional": {
                 "show": true,
                 "when": "selectBoxes",
-                "eq": "5",
+                "eq": "other",
                 "json": ""
             },
             "customConditional": "",
@@ -730,7 +726,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "e6hrnwv",
+            "id": "enmghy",
             "defaultValue": ""
         },
         {
@@ -742,7 +738,7 @@
             "action": "submit",
             "disableOnInvalid": true,
             "theme": "primary",
-            "id": "eyve4mh",
+            "id": "e9cflls",
             "input": true,
             "placeholder": "",
             "prefix": "",
