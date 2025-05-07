@@ -1,0 +1,602 @@
+{
+    "_id": "578f930ef1912f8000459a50",
+    "machineName": "examples:wizard",
+    "modified": "2024-09-19T20:33:36.892Z",
+    "title": "Wizard",
+    "display": "wizard",
+    "type": "form",
+    "name": "wizard",
+    "path": "wizard",
+    "project": "5692b91fd1028f01000407e3",
+    "created": "2016-07-20T15:04:46.906Z",
+    "components": [
+        {
+            "key": "page1",
+            "input": false,
+            "components": [
+                {
+                    "type": "textfield",
+                    "multiple": true,
+                    "key": "textfieldonpage1",
+                    "label": "Textfield on page 1",
+                    "tableView": true,
+                    "input": true,
+                    "id": "edyg3cp",
+                    "placeholder": "",
+                    "prefix": "",
+                    "customClass": "",
+                    "suffix": "",
+                    "defaultValue": null,
+                    "protected": false,
+                    "unique": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "clearOnHide": true,
+                    "refreshOn": "",
+                    "redrawOn": "",
+                    "modalEdit": false,
+                    "dataGridLabel": false,
+                    "labelPosition": "top",
+                    "description": "",
+                    "errorLabel": "",
+                    "tooltip": "",
+                    "hideLabel": false,
+                    "tabindex": "",
+                    "disabled": false,
+                    "autofocus": false,
+                    "dbIndex": false,
+                    "customDefaultValue": "",
+                    "calculateValue": "",
+                    "calculateServer": false,
+                    "widget": {
+                        "type": "input"
+                    },
+                    "attributes": {},
+                    "validateOn": "change",
+                    "validate": {
+                        "required": false,
+                        "custom": "",
+                        "customPrivate": false,
+                        "strictDateValidation": false,
+                        "multiple": false,
+                        "unique": false,
+                        "minLength": "",
+                        "maxLength": "",
+                        "pattern": ""
+                    },
+                    "conditional": {
+                        "show": null,
+                        "when": null,
+                        "eq": ""
+                    },
+                    "overlay": {
+                        "style": "",
+                        "left": "",
+                        "top": "",
+                        "width": "",
+                        "height": ""
+                    },
+                    "allowCalculateOverride": false,
+                    "encrypted": false,
+                    "showCharCount": false,
+                    "showWordCount": false,
+                    "properties": {},
+                    "allowMultipleMasks": false,
+                    "addons": [],
+                    "mask": false,
+                    "inputType": "text",
+                    "inputFormat": "plain",
+                    "inputMask": "",
+                    "displayMask": "",
+                    "spellcheck": true,
+                    "truncateMultipleSpaces": false
+                },
+                {
+                    "type": "number",
+                    "validate": {
+                        "required": true,
+                        "custom": "",
+                        "customPrivate": false,
+                        "strictDateValidation": false,
+                        "multiple": false,
+                        "unique": false,
+                        "min": "",
+                        "max": "",
+                        "step": "any",
+                        "integer": ""
+                    },
+                    "defaultValue": 0,
+                    "key": "numberField",
+                    "label": "Number Field",
+                    "inputType": "number",
+                    "tableView": true,
+                    "input": true,
+                    "id": "e1o24t8",
+                    "placeholder": "",
+                    "prefix": "",
+                    "customClass": "",
+                    "suffix": "",
+                    "multiple": false,
+                    "protected": false,
+                    "unique": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "clearOnHide": true,
+                    "refreshOn": "",
+                    "redrawOn": "",
+                    "modalEdit": false,
+                    "dataGridLabel": false,
+                    "labelPosition": "top",
+                    "description": "",
+                    "errorLabel": "",
+                    "tooltip": "",
+                    "hideLabel": false,
+                    "tabindex": "",
+                    "disabled": false,
+                    "autofocus": false,
+                    "dbIndex": false,
+                    "customDefaultValue": "",
+                    "calculateValue": "",
+                    "calculateServer": false,
+                    "widget": {
+                        "type": "input"
+                    },
+                    "attributes": {},
+                    "validateOn": "change",
+                    "conditional": {
+                        "show": null,
+                        "when": null,
+                        "eq": ""
+                    },
+                    "overlay": {
+                        "style": "",
+                        "left": "",
+                        "top": "",
+                        "width": "",
+                        "height": ""
+                    },
+                    "allowCalculateOverride": false,
+                    "encrypted": false,
+                    "showCharCount": false,
+                    "showWordCount": false,
+                    "properties": {},
+                    "allowMultipleMasks": false,
+                    "addons": []
+                }
+            ],
+            "title": "First",
+            "type": "panel",
+            "tableView": false,
+            "label": "Panel",
+            "id": "euwmfa",
+            "placeholder": "",
+            "prefix": "",
+            "customClass": "",
+            "suffix": "",
+            "multiple": false,
+            "defaultValue": null,
+            "protected": false,
+            "unique": false,
+            "persistent": false,
+            "hidden": false,
+            "clearOnHide": false,
+            "refreshOn": "",
+            "redrawOn": "",
+            "modalEdit": false,
+            "dataGridLabel": false,
+            "labelPosition": "top",
+            "description": "",
+            "errorLabel": "",
+            "tooltip": "",
+            "hideLabel": false,
+            "tabindex": "",
+            "disabled": false,
+            "autofocus": false,
+            "dbIndex": false,
+            "customDefaultValue": "",
+            "calculateValue": "",
+            "calculateServer": false,
+            "widget": null,
+            "attributes": {},
+            "validateOn": "change",
+            "validate": {
+                "required": false,
+                "custom": "",
+                "customPrivate": false,
+                "strictDateValidation": false,
+                "multiple": false,
+                "unique": false
+            },
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "overlay": {
+                "style": "",
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            },
+            "allowCalculateOverride": false,
+            "encrypted": false,
+            "showCharCount": false,
+            "showWordCount": false,
+            "properties": {},
+            "allowMultipleMasks": false,
+            "addons": [],
+            "tree": false,
+            "lazyLoad": false,
+            "theme": "default",
+            "breadcrumb": "default"
+        },
+        {
+            "tableView": false,
+            "key": "page2",
+            "input": false,
+            "components": [
+                {
+                    "type": "textfield",
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "textfieldonPage2",
+                    "label": "Textfield on Page 2",
+                    "tableView": true,
+                    "input": true
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "label": "Customer",
+                    "key": "page2Customer",
+                    "placeholder": "Select a customer",
+                    "data": {
+                        "url": "https://examples.form.io/customer/submission",
+                        "headers": [
+                            {
+                                "value": "",
+                                "key": ""
+                            }
+                        ]
+                    },
+                    "dataSrc": "url",
+                    "valueProperty": "data.email",
+                    "template": "<span>{{ item.data.firstName }} {{ item.data.lastName }}</span>",
+                    "type": "select",
+                    "widget": "html5",
+                    "searchField": "data.email"
+                },
+                {
+                    "clearOnHide": false,
+                    "type": "fieldset",
+                    "components": [
+                        {
+                            "type": "textfield",
+                            "key": "textfield",
+                            "label": "Textfield",
+                            "tableView": true,
+                            "input": true
+                        }
+                    ],
+                    "legend": "FieldSet Label",
+                    "tableView": true,
+                    "input": false,
+                    "key": "fieldSet",
+                    "label": "Field Set"
+                }
+            ],
+            "title": "Page 2",
+            "type": "panel",
+            "label": "Panel"
+        },
+        {
+            "type": "panel",
+            "components": [
+                {
+                    "input": true,
+                    "tableView": true,
+                    "label": "Text",
+                    "key": "panelText",
+                    "validate": {
+                        "required": true
+                    },
+                    "type": "textfield"
+                },
+                {
+                    "type": "datagrid",
+                    "key": "panelDataGrid",
+                    "label": "Data Grid",
+                    "tableView": true,
+                    "components": [
+                        {
+                            "hideLabel": true,
+                            "type": "textfield",
+                            "key": "panelDataGridA",
+                            "label": "A",
+                            "tableView": true,
+                            "input": true,
+                            "inDataGrid": true
+                        },
+                        {
+                            "hideLabel": true,
+                            "type": "textfield",
+                            "key": "panelDataGridB",
+                            "label": "B",
+                            "tableView": true,
+                            "input": true,
+                            "inDataGrid": true
+                        },
+                        {
+                            "hideLabel": true,
+                            "type": "textfield",
+                            "key": "panelDataGridC",
+                            "label": "C",
+                            "tableView": true,
+                            "input": true,
+                            "inDataGrid": true
+                        },
+                        {
+                            "hideLabel": true,
+                            "type": "textfield",
+                            "key": "panelDataGridD",
+                            "label": "D",
+                            "tableView": true,
+                            "input": true,
+                            "inDataGrid": true
+                        }
+                    ],
+                    "input": true
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "label": "HTML5 Select",
+                    "key": "panelHtml5Select",
+                    "data": {
+                        "values": [
+                            {
+                                "value": "orange",
+                                "label": "Orange"
+                            },
+                            {
+                                "value": "apple",
+                                "label": "Apple"
+                            },
+                            {
+                                "value": "banana",
+                                "label": "Banana"
+                            },
+                            {
+                                "value": "strawberry",
+                                "label": "Strawberry"
+                            },
+                            {
+                                "value": "kiwi",
+                                "label": "Kiwi"
+                            }
+                        ]
+                    },
+                    "widget": "html5",
+                    "type": "select"
+                }
+            ],
+            "tableView": false,
+            "title": "Page 3",
+            "input": false,
+            "key": "panel",
+            "label": "Panel"
+        },
+        {
+            "key": "page3",
+            "input": false,
+            "components": [
+                {
+                    "type": "textfield",
+                    "key": "textfieldonPage3",
+                    "label": "Textfield on Page 3",
+                    "tableView": true,
+                    "input": true
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "label": "I agree to the follow the rules",
+                    "dataGridLabel": false,
+                    "key": "page3Iagreetothefollowtherules",
+                    "defaultValue": false,
+                    "type": "checkbox"
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "label": "Signature",
+                    "key": "signature",
+                    "type": "signature",
+                    "hideLabel": true,
+                    "lockKey": true
+                }
+            ],
+            "title": "Last",
+            "type": "panel",
+            "tableView": false,
+            "label": "Panel"
+        },
+        {
+            "type": "button",
+            "disableOnInvalid": true,
+            "key": "submit",
+            "tableView": false,
+            "label": "Submit",
+            "input": true
+        }
+    ],
+    "owner": "55673dc04f0405dd28205bb7",
+    "submissionAccess": [
+        {
+            "type": "create_own",
+            "roles": ["5692b920d1028f01000407e6"]
+        },
+        {
+            "type": "create_all",
+            "roles": []
+        },
+        {
+            "type": "read_own",
+            "roles": []
+        },
+        {
+            "type": "read_all",
+            "roles": ["5692b920d1028f01000407e6"]
+        },
+        {
+            "type": "update_own",
+            "roles": []
+        },
+        {
+            "type": "update_all",
+            "roles": []
+        },
+        {
+            "type": "delete_own",
+            "roles": []
+        },
+        {
+            "type": "delete_all",
+            "roles": []
+        },
+        {
+            "type": "team_read",
+            "roles": []
+        },
+        {
+            "type": "team_write",
+            "roles": []
+        },
+        {
+            "type": "team_admin",
+            "roles": []
+        }
+    ],
+    "access": [
+        {
+            "type": "create_own",
+            "roles": []
+        },
+        {
+            "type": "create_all",
+            "roles": []
+        },
+        {
+            "type": "read_own",
+            "roles": []
+        },
+        {
+            "type": "read_all",
+            "roles": [
+                "5692b920d1028f01000407e4",
+                "5692b920d1028f01000407e5",
+                "5692b920d1028f01000407e6",
+                "6556376d043f6ce752e40641",
+                "000000000000000000000000"
+            ]
+        },
+        {
+            "type": "update_own",
+            "roles": []
+        },
+        {
+            "type": "update_all",
+            "roles": []
+        },
+        {
+            "type": "delete_own",
+            "roles": []
+        },
+        {
+            "type": "delete_all",
+            "roles": []
+        },
+        {
+            "type": "team_read",
+            "roles": []
+        },
+        {
+            "type": "team_write",
+            "roles": []
+        },
+        {
+            "type": "team_admin",
+            "roles": []
+        }
+    ],
+    "tags": ["common"],
+    "settings": {
+        "controller": "['$scope', function($scope) { $scope.$watch('submission.data', function(data) { console.log(data); }, true); }]"
+    },
+    "revisions": "",
+    "_vid": 0,
+    "controller": "",
+    "properties": {},
+    "fieldMatchAccess": {
+        "read": [
+            {
+                "formFieldPath": "",
+                "value": "",
+                "operator": "$eq",
+                "valueType": "string",
+                "roles": []
+            }
+        ],
+        "write": [
+            {
+                "formFieldPath": "",
+                "value": "",
+                "operator": "$eq",
+                "valueType": "string",
+                "roles": []
+            }
+        ],
+        "create": [
+            {
+                "formFieldPath": "",
+                "value": "",
+                "operator": "$eq",
+                "valueType": "string",
+                "roles": []
+            }
+        ],
+        "admin": [
+            {
+                "formFieldPath": "",
+                "value": "",
+                "operator": "$eq",
+                "valueType": "string",
+                "roles": []
+            }
+        ],
+        "delete": [
+            {
+                "formFieldPath": "",
+                "value": "",
+                "operator": "$eq",
+                "valueType": "string",
+                "roles": []
+            }
+        ],
+        "update": [
+            {
+                "formFieldPath": "",
+                "value": "",
+                "operator": "$eq",
+                "valueType": "string",
+                "roles": []
+            }
+        ],
+        "_id": "66ec8aa04c84bfbb85c8de4f"
+    },
+    "pdfComponents": [],
+    "submissionRevisions": "",
+    "plan": "commercial"
+}
