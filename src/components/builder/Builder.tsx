@@ -36,7 +36,7 @@ const Builder = () => {
                 console log and copy schema
             </button>
 
-            <Card className="my-4">
+            <Card className="my-4 render-form">
                 <Card.Body>
                     <Card.Title className="text-center">
                         As Rendered Form
