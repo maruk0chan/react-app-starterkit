@@ -1,17 +1,12 @@
 import { Form, FormBuilder, FormType } from "@formio/react";
+import ReactJson from "@microlink/react-json-view";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
-import ReactJson from "@microlink/react-json-view";
-import "./Builder.css";
 import section6ASchema from "../sample-input-json/section-a6-BQ17019.json";
-import { customConfigKey, defaultCustomConfig } from "./config";
-import type { CustomConfig } from "./type";
+import "./Builder.css";
 const Builder = () => {
     const fetchedSchema = section6ASchema as FormType;
-
-    const configuredSchema = addCustomConfigKey(fetchedSchema);
-
-    const defaultSchema = configuredSchema;
+    const defaultSchema = fetchedSchema;
     const [schema, setSchema] = useState<FormType>(defaultSchema);
     const onFormChange = (schema: FormType) => {
         setSchema(schema);
@@ -53,15 +48,3 @@ const Builder = () => {
     );
 };
 export default Builder;
-
-const addCustomConfigKey = (schema: FormType) => {
-    const components = schema.components.map((c) => {
-        // only assign value if the key is undefined
-        // TODO the nested keys might not be assigned
-        if (!c[customConfigKey]) {
-            c[customConfigKey] = defaultCustomConfig;
-        }
-        return c;
-    });
-    return { ...schema, components };
-};
