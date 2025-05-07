@@ -84,7 +84,7 @@
             "addons": [],
             "inputType": "radio",
             "fieldSet": false,
-            "id": "eewa1t",
+            "id": "e1mm98k",
             "defaultValue": ""
         },
         {
@@ -150,7 +150,7 @@
             "calculateServer": false,
             "allowCalculateOverride": false,
             "validate": {
-                "required": false,
+                "required": true,
                 "onlyAvailableItems": false,
                 "customMessage": "",
                 "custom": "",
@@ -207,7 +207,7 @@
             "allowMultipleMasks": false,
             "addons": [],
             "fieldSet": false,
-            "id": "e060fb"
+            "id": "e8g1qu"
         },
         {
             "label": "2(a). Please specify the number of staff in the department: [BQ17020_01_01]",
@@ -247,7 +247,7 @@
             "allowCalculateOverride": false,
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "customMessage": "",
                 "custom": "",
                 "customPrivate": false,
@@ -292,7 +292,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ehf3f2d",
+            "id": "ebl5ff7",
             "labelWidth": 80,
             "defaultValue": null
         },
@@ -338,7 +338,7 @@
             "allowCalculateOverride": false,
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "pattern": "",
                 "customMessage": "",
                 "custom": "",
@@ -383,7 +383,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "etx29jt",
+            "id": "ellxgiv",
             "defaultValue": ""
         },
         {
@@ -428,7 +428,7 @@
             "allowCalculateOverride": false,
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "pattern": "",
                 "customMessage": "",
                 "custom": "",
@@ -473,7 +473,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "eompmg8",
+            "id": "edtp4t7",
             "defaultValue": ""
         },
         {
@@ -492,7 +492,7 @@
             "type": "number",
             "labelWidth": 60,
             "input": true,
-            "id": "evin3um",
+            "id": "er90ymr",
             "placeholder": "",
             "prefix": "",
             "customClass": "",
@@ -523,7 +523,7 @@
             "attributes": {},
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "custom": "",
                 "customPrivate": false,
                 "strictDateValidation": false,
@@ -591,7 +591,7 @@
             "allowCalculateOverride": false,
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "pattern": "",
                 "customMessage": "",
                 "custom": "",
@@ -636,7 +636,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "exmb1dh",
+            "id": "e096d7g",
             "defaultValue": ""
         },
         {
@@ -681,7 +681,7 @@
             "allowCalculateOverride": false,
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "pattern": "",
                 "customMessage": "",
                 "custom": "",
@@ -726,7 +726,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "eadnmb",
+            "id": "e1v9pp",
             "defaultValue": ""
         },
         {
@@ -782,7 +782,7 @@
             "calculateServer": false,
             "allowCalculateOverride": false,
             "validate": {
-                "required": false,
+                "required": true,
                 "onlyAvailableItems": false,
                 "customMessage": "",
                 "custom": "",
@@ -839,7 +839,7 @@
             "allowMultipleMasks": false,
             "addons": [],
             "fieldSet": false,
-            "id": "epgaevb"
+            "id": "exd6jo"
         },
         {
             "label": "3(a). Periodic review",
@@ -882,7 +882,7 @@
             "calculateServer": false,
             "allowCalculateOverride": false,
             "validate": {
-                "required": false,
+                "required": true,
                 "onlyAvailableItems": false,
                 "customMessage": "",
                 "custom": "",
@@ -944,7 +944,7 @@
             "addons": [],
             "inputType": "radio",
             "fieldSet": false,
-            "id": "emmw3qdf",
+            "id": "evrpiw",
             "defaultValue": ""
         },
         {
@@ -956,7 +956,7 @@
             "action": "submit",
             "disableOnInvalid": true,
             "theme": "primary",
-            "id": "epy771",
+            "id": "eefh3f",
             "input": true,
             "placeholder": "",
             "prefix": "",
@@ -990,7 +990,7 @@
             "attributes": {},
             "validateOn": "change",
             "validate": {
-                "required": false,
+                "required": true,
                 "custom": "",
                 "customPrivate": false,
                 "strictDateValidation": false,
