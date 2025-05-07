@@ -56,7 +56,11 @@ export default Builder;
 
 const addCustomConfigKey = (schema: FormType) => {
     const components = schema.components.map((c) => {
-        c[customConfigKey] = defaultCustomConfig;
+        // only assign value if the key is undefined
+        // TODO the nested keys might not be assigned
+        if (!c[customConfigKey]) {
+            c[customConfigKey] = defaultCustomConfig;
+        }
         return c;
     });
     return { ...schema, components };

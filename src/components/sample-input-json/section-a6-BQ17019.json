@@ -85,7 +85,7 @@
             "fieldSet": false,
             "id": "e42f42h",
             "defaultValue": "",
-            "_config": { "autoQuestionNumberTag": false }
+            "_config": { "autoQuestionNumberTag": true }
         },
         {
             "type": "button",
