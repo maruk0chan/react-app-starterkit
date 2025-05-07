@@ -18,16 +18,8 @@
             "modalEdit": false,
             "dataSrc": "values",
             "values": [
-                {
-                    "label": "Yes",
-                    "value": "yes",
-                    "shortcut": ""
-                },
-                {
-                    "label": "No",
-                    "value": "no",
-                    "shortcut": ""
-                }
+                { "label": "Yes", "value": "yes", "shortcut": "" },
+                { "label": "No", "value": "no", "shortcut": "" }
             ],
             "dataType": "",
             "valueProperty": "",
@@ -57,12 +49,7 @@
             "key": "doesTheLicensedCorporationHaveAnyInternalAuditFunctionBq17019",
             "tags": [],
             "properties": {},
-            "conditional": {
-                "show": null,
-                "when": null,
-                "eq": "",
-                "json": ""
-            },
+            "conditional": { "show": null, "when": null, "eq": "", "json": "" },
             "customConditional": "",
             "logic": [],
             "attributes": {},
@@ -76,9 +63,7 @@
             },
             "type": "radio",
             "dataGridLabel": false,
-            "data": {
-                "url": ""
-            },
+            "data": { "url": "" },
             "template": "<span>{{ item.label }}</span>",
             "authenticate": false,
             "ignoreCache": false,
@@ -99,7 +84,8 @@
             "inputType": "radio",
             "fieldSet": false,
             "id": "e42f42h",
-            "defaultValue": ""
+            "defaultValue": "",
+            "_config": {}
         },
         {
             "type": "button",
@@ -140,9 +126,7 @@
             "customDefaultValue": "",
             "calculateValue": "",
             "calculateServer": false,
-            "widget": {
-                "type": "input"
-            },
+            "widget": { "type": "input" },
             "attributes": {},
             "validateOn": "change",
             "validate": {
@@ -153,11 +137,7 @@
                 "multiple": false,
                 "unique": false
             },
-            "conditional": {
-                "show": null,
-                "when": null,
-                "eq": ""
-            },
+            "conditional": { "show": null, "when": null, "eq": "" },
             "overlay": {
                 "style": "",
                 "left": "",
@@ -173,7 +153,8 @@
             "allowMultipleMasks": false,
             "addons": [],
             "leftIcon": "",
-            "rightIcon": ""
+            "rightIcon": "",
+            "_config": {}
         }
     ]
 }
