@@ -3,25 +3,16 @@ import { useState } from "react";
 import { Card } from "react-bootstrap";
 import ReactJson from "@microlink/react-json-view";
 import "../styles/Builder.css";
+import section6ASchema from "./sample-input-json/section-a6-BQ17019.json";
 const Builder = () => {
-    const [schema, setSchema] = useState<FormType>({
-        display: "form",
-        components: [
-            {
-                type: "button",
-                action: "submit",
-                label: "Submit",
-                input: true,
-                key: "submit",
-            },
-        ],
-    });
+    const fetchedSchema = section6ASchema as FormType;
+    const [schema, setSchema] = useState<FormType>(fetchedSchema);
     const onFormChange = (schema: FormType) => {
         setSchema(schema);
     };
     return (
         <>
-            <FormBuilder onChange={onFormChange} />
+            <FormBuilder initialForm={fetchedSchema} onChange={onFormChange} />
             <Card title="Form JSON Schema" className="my-4">
                 <Card.Body>
                     <Card.Title className="text-center">
