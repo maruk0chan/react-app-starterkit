@@ -2,9 +2,12 @@ import { Form, FormBuilder, FormType } from "@formio/react";
 import ReactJson from "@microlink/react-json-view";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
-import section6ASchema from "../sample-input-json/section-a6-BQ17019.json";
+// import section6ASchema from "../sample-input-json/section-a6-BQ17019.json";
 import wizardSchema from "../sample-input-json/wizard.json";
 import "./Builder.css";
+
+// * client existing form example https://wings.sfc.hk/brmq-v3/?type=LC
+
 const Builder = () => {
     // const fetchedSchema = section6ASchema as FormType;
     const fetchedSchema = wizardSchema as FormType;
