@@ -1,5 +1,5 @@
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
-import Builder from "./Builder";
+import Builder from "./builder/Builder";
 import CustomBuilder from "./CustomBuilder";
 import PDFForm from "./PDFForm";
 import Renderer from "./Renderer";
@@ -9,18 +9,18 @@ import WizardForm from "./WizardForm";
 const Components = () => {
     return (
         <Container className="pt-5">
-            <Tab.Container id="left-tabs-example" defaultActiveKey={"renderer"}>
+            <Tab.Container id="left-tabs-example" defaultActiveKey={"builder"}>
                 <Row>
                     <Col sm={2}>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
-                                <Nav.Link eventKey="renderer">
-                                    Form Renderer
+                                <Nav.Link eventKey="builder">
+                                    Form Builder
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="builder">
-                                    Form Builder
+                                <Nav.Link eventKey="renderer">
+                                    Form Renderer
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
