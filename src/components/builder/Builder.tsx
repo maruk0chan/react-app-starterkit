@@ -4,7 +4,8 @@ import { Card } from "react-bootstrap";
 import ReactJson from "@microlink/react-json-view";
 import "./Builder.css";
 import section6ASchema from "../sample-input-json/section-a6-BQ17019.json";
-import { customConfigKey } from "./config";
+import { customConfigKey, defaultCustomConfig } from "./config";
+import type { CustomConfig } from "./type";
 const Builder = () => {
     const fetchedSchema = section6ASchema as FormType;
 
@@ -55,7 +56,7 @@ export default Builder;
 
 const addCustomConfigKey = (schema: FormType) => {
     const components = schema.components.map((c) => {
-        c[customConfigKey] = {};
+        c[customConfigKey] = defaultCustomConfig;
         return c;
     });
     return { ...schema, components };

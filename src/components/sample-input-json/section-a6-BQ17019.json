@@ -85,7 +85,7 @@
             "fieldSet": false,
             "id": "e42f42h",
             "defaultValue": "",
-            "_config": {}
+            "_config": { "autoQuestionNumberTag": false }
         },
         {
             "type": "button",
@@ -154,7 +154,7 @@
             "addons": [],
             "leftIcon": "",
             "rightIcon": "",
-            "_config": {}
+            "_config": { "autoQuestionNumberTag": false }
         }
     ]
 }
