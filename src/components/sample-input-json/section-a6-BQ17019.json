@@ -84,7 +84,7 @@
             "addons": [],
             "inputType": "radio",
             "fieldSet": false,
-            "id": "e1mm98k",
+            "id": "e8oasv",
             "defaultValue": ""
         },
         {
@@ -207,7 +207,7 @@
             "allowMultipleMasks": false,
             "addons": [],
             "fieldSet": false,
-            "id": "e8g1qu"
+            "id": "ecmnlqb"
         },
         {
             "label": "2(a). Please specify the number of staff in the department: [BQ17020_01_01]",
@@ -292,7 +292,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ebl5ff7",
+            "id": "eu2556",
             "labelWidth": 80,
             "defaultValue": null
         },
@@ -383,7 +383,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "ellxgiv",
+            "id": "eydxnwh",
             "defaultValue": ""
         },
         {
@@ -473,7 +473,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "edtp4t7",
+            "id": "e3j3som",
             "defaultValue": ""
         },
         {
@@ -492,7 +492,7 @@
             "type": "number",
             "labelWidth": 60,
             "input": true,
-            "id": "er90ymr",
+            "id": "e8fsxol",
             "placeholder": "",
             "prefix": "",
             "customClass": "",
@@ -636,7 +636,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "e096d7g",
+            "id": "er80kpg",
             "defaultValue": ""
         },
         {
@@ -726,7 +726,7 @@
             "refreshOn": "",
             "addons": [],
             "inputType": "text",
-            "id": "e1v9pp",
+            "id": "e4ark9v9",
             "defaultValue": ""
         },
         {
@@ -839,7 +839,7 @@
             "allowMultipleMasks": false,
             "addons": [],
             "fieldSet": false,
-            "id": "exd6jo"
+            "id": "e009gt"
         },
         {
             "label": "3(a). Periodic review",
@@ -944,8 +944,99 @@
             "addons": [],
             "inputType": "radio",
             "fieldSet": false,
-            "id": "evrpiw",
+            "id": "evn7i2i",
             "defaultValue": ""
+        },
+        {
+            "label": "1(b). Reconcile house account balances regularly and at least monthly with [BQ17023_02]",
+            "labelPosition": "top",
+            "description": "",
+            "tooltip": "",
+            "customClass": "",
+            "tabindex": "",
+            "hidden": false,
+            "hideLabel": false,
+            "autofocus": false,
+            "disabled": false,
+            "tableView": false,
+            "modalEdit": false,
+            "questions": [
+                {
+                    "label": "(i) banks [BQ17023_02_01]",
+                    "value": "1",
+                    "tooltip": ""
+                },
+                {
+                    "label": "(ii) custodians [BQ17023_02_02]",
+                    "value": "2",
+                    "tooltip": ""
+                },
+                {
+                    "label": "(iii) brokers or clearing houses [BQ17023_02_03]",
+                    "value": "iiiBrokersOrClearingHousesBq170230203",
+                    "tooltip": ""
+                }
+            ],
+            "values": [
+                { "label": "Yes", "value": "1", "tooltip": "" },
+                { "label": "No", "value": "0", "tooltip": "" },
+                { "label": "N/A", "value": "2", "tooltip": "" }
+            ],
+            "persistent": true,
+            "protected": false,
+            "dbIndex": false,
+            "encrypted": false,
+            "redrawOn": "",
+            "clearOnHide": true,
+            "customDefaultValue": "",
+            "calculateValue": "",
+            "calculateServer": false,
+            "allowCalculateOverride": false,
+            "validate": {
+                "required": false,
+                "customMessage": "",
+                "custom": "",
+                "customPrivate": false,
+                "json": "",
+                "strictDateValidation": false,
+                "multiple": false,
+                "unique": false
+            },
+            "unique": false,
+            "validateWhenHidden": false,
+            "errorLabel": "",
+            "errors": "",
+            "key": "BReconcileHouseAccountBalancesRegularlyAndAtLeastMonthlyWithBq1702302",
+            "tags": [],
+            "properties": {},
+            "conditional": { "show": null, "when": null, "eq": "", "json": "" },
+            "customConditional": "",
+            "logic": [],
+            "attributes": {},
+            "overlay": {
+                "style": "",
+                "page": "",
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            },
+            "type": "survey",
+            "dataGridLabel": false,
+            "input": true,
+            "placeholder": "",
+            "prefix": "",
+            "suffix": "",
+            "multiple": false,
+            "refreshOn": "",
+            "widget": null,
+            "validateOn": "change",
+            "showCharCount": false,
+            "showWordCount": false,
+            "allowMultipleMasks": false,
+            "addons": [],
+            "id": "eqedefh",
+            "defaultValue": {}
         },
         {
             "type": "button",
@@ -956,7 +1047,7 @@
             "action": "submit",
             "disableOnInvalid": true,
             "theme": "primary",
-            "id": "eefh3f",
+            "id": "eklbbbw",
             "input": true,
             "placeholder": "",
             "prefix": "",
