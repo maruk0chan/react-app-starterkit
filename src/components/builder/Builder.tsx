@@ -10,7 +10,7 @@ import "./Builder.css";
 
 const Builder = () => {
     // const fetchedSchema = section6ASchema as FormType;
-    const fetchedSchema = wizardSchema as FormType;
+    const fetchedSchema = wizardSchema as unknown as FormType;
     const defaultSchema = fetchedSchema;
     const [schema, setSchema] = useState<FormType>(defaultSchema);
     const onFormChange = (schema: FormType) => {
