@@ -1,5 +1,5 @@
 import { Form, FormBuilder, FormType } from "@formio/react";
-import ReactJson from "@microlink/react-json-view";
+// import ReactJson from "@microlink/react-json-view";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
 // import section6ASchema from "../sample-input-json/section-a6-BQ17019.json";
@@ -20,7 +20,7 @@ const Builder = () => {
         <>
             <FormBuilder initialForm={defaultSchema} onChange={onFormChange} />
 
-            <Card title="Form JSON Schema" className="my-4">
+            {/* <Card title="Form JSON Schema" className="my-4">
                 <Card.Body>
                     <Card.Title className="text-center">
                         As JSON Schema
@@ -31,7 +31,7 @@ const Builder = () => {
                         collapsed={true}
                     ></ReactJson>
                 </Card.Body>
-            </Card>
+            </Card> */}
             <button
                 onClick={async () => {
                     console.log(schema);
