@@ -34,6 +34,11 @@ const Components = () => {
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
+                                <Nav.Link eventKey="multilang">
+                                    Multi-language
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
                                 <Nav.Link eventKey="pdf">PDF Form</Nav.Link>
                             </Nav.Item>
                         </Nav>
@@ -55,7 +60,7 @@ const Components = () => {
                             <Tab.Pane eventKey="pdf">
                                 <PDFForm />
                             </Tab.Pane>
-                            <Tab.Pane eventKey="custom">
+                            <Tab.Pane eventKey="multilang">
                                 <CustomBuilder />
                             </Tab.Pane>
                         </Tab.Content>
