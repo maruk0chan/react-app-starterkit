@@ -118,7 +118,7 @@ const pages: Page[] = [
 ];
 
 const SimpleForm = () => {
-    const [page, setPage] = useState<Page>(null);
+    const [page, setPage] = useState<Page | null>(null);
 
     return (
         <>

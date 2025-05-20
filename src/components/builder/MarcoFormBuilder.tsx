@@ -2,16 +2,16 @@ import { Form, FormBuilder, FormType } from "@formio/react";
 // import ReactJson from "@microlink/react-json-view";
 import { useState } from "react";
 // import section6ASchema from "../sample-input-json/section-a6-BQ17019.json";
-import wizardSchema from "../sample-input-json/wizard.json";
+// import wizardSchema from "../sample-input-json/wizard.json";
 import "./Builder.css";
 
 // * client existing form example https://wings.sfc.hk/brmq-v3/?type=LC
 
-const defaultSchema = {};
+const defaultSchema = undefined;
 const MarcoFormBuilder = () => {
     // const fetchedSchema = section6ASchema as FormType;
     // const fetchedSchema = wizardSchema as unknown as FormType;
-    const [schema, setSchema] = useState<FormType>(defaultSchema);
+    const [schema, setSchema] = useState<FormType | undefined>(defaultSchema);
     const onFormChange = (schema: FormType) => {
         setSchema(schema);
     };
@@ -45,7 +45,7 @@ const MarcoFormBuilder = () => {
                     <Card.Title className="text-center">
                         As Rendered Form
                     </Card.Title> */}
-            <Form src={schema} />
+            {schema && <Form src={schema} />}
             {/* </Card.Body>
             </Card> */}
         </>

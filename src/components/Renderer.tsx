@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { ExampleForm } from "./ExampleForm";
+import type { FormSource } from "@formio/react";
 
 const Renderer = () => {
     const formDefinition = {
@@ -65,7 +66,7 @@ const Renderer = () => {
                     null,
                     2,
                 )}} />`}
-                src={formDefinition}
+                src={formDefinition as unknown as FormSource}
             />
             <p>
                 ...and even populate the form at runtime with submission data.
@@ -77,7 +78,7 @@ const Renderer = () => {
                     null,
                     2,
                 )}} submission={${JSON.stringify(submissionData, null, 2)}} />`}
-                src={formDefinition}
+                src={formDefinition as unknown as FormSource}
                 submission={submissionData}
             />
         </Container>
