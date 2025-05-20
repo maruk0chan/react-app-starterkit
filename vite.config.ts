@@ -8,6 +8,9 @@ export default defineConfig({
         watch: {
             usePolling: true,
         },
+        fs: {
+            cachedChecks: false,
+        },
     },
     base: "/react-app-starterkit/",
 });
