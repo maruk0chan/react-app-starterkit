@@ -135,7 +135,7 @@ const SimpleForm = () => {
                             </option>
                         ))}
                     </select>
-                    <h2>{page?.label}</h2>
+                    <h4>{page?.label}</h4>
 
                     <div className="py-3">
                         {page?.src && <Form src={page?.src} />}
