@@ -3,10 +3,14 @@
 #group-container-layout,
 #group-container-premium,
 #group-container-data {
-  display: grid;
-  gap: 0.1rem;
+    display: grid;
+    gap: 0.1rem;
 }
 
 .builder-group-button {
-  width: 100%;
+    width: 100%;
+}
+
+.render-form {
+    padding-bottom: 800px;
 }
