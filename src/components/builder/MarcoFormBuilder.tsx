@@ -7,10 +7,10 @@ import "./Builder.css";
 
 // * client existing form example https://wings.sfc.hk/brmq-v3/?type=LC
 
+const defaultSchema = {};
 const MarcoFormBuilder = () => {
     // const fetchedSchema = section6ASchema as FormType;
-    const fetchedSchema = wizardSchema as unknown as FormType;
-    const defaultSchema = fetchedSchema;
+    // const fetchedSchema = wizardSchema as unknown as FormType;
     const [schema, setSchema] = useState<FormType>(defaultSchema);
     const onFormChange = (schema: FormType) => {
         setSchema(schema);
