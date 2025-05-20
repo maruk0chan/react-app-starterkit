@@ -1,8 +1,9 @@
 import { Form, type FormSource } from "@formio/react";
 import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import section_a1 from "./sample-input-json/session-a1-BQ17005.json";
-import section_a6 from "./sample-input-json/section-a6-BQ17019.json";
+import section_a1 from "@/components/sample-input-json/session-a1-BQ17005.json";
+import section_a6 from "@/components/sample-input-json/section-a6-BQ17019.json";
+import completion_notes from "@/components/sample-input-json/completion_notes.json";
 
 interface Page {
     id: string;
@@ -21,7 +22,7 @@ const pages: Page[] = [
         id: "completion_notes",
         label: "Completion Notes",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: completion_notes as FormSource,
     },
     {
         id: "index",
@@ -129,8 +130,8 @@ const SimpleForm = () => {
                     >
                         {pages.map((p) => (
                             <option value={p.id}>
-                                {p?.verify ? "✔" : "✗"}{" "}
-                                {!p?.src && "(.json not ready)"} {p?.label}
+                                {!p?.src && "(.json not ready)"}{" "}
+                                {p?.verify ? "✔" : "✗"} {p?.label}
                             </option>
                         ))}
                     </select>
