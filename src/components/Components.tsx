@@ -5,6 +5,8 @@ import PDFForm from "./PDFForm";
 import Renderer from "./Renderer";
 import SimpleForm from "./SimpleForm";
 import WizardForm from "./WizardForm";
+import MarcoFormBuilder from "@/components/builder/MarcoFormBuilder";
+import PeterFormBuilder from "@/components/builder/PeterFormBuilder";
 
 const Components = () => {
     return (
@@ -15,7 +17,13 @@ const Components = () => {
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
                                 <Nav.Link eventKey="builder">
-                                    Form Builder
+                                    Default Form Builder
+                                </Nav.Link>
+                                <Nav.Link eventKey="builder-peter">
+                                    Peter Form Builder
+                                </Nav.Link>
+                                <Nav.Link eventKey="builder-marco">
+                                    Marco Form Builder
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
@@ -34,6 +42,11 @@ const Components = () => {
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
+                                <Nav.Link eventKey="multilang">
+                                    Multi-language
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
                                 <Nav.Link eventKey="pdf">PDF Form</Nav.Link>
                             </Nav.Item>
                         </Nav>
@@ -46,6 +59,12 @@ const Components = () => {
                             <Tab.Pane eventKey="builder">
                                 <Builder />
                             </Tab.Pane>
+                            <Tab.Pane eventKey="builder-peter">
+                                <PeterFormBuilder />
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="builder-marco">
+                                <MarcoFormBuilder />
+                            </Tab.Pane>
                             <Tab.Pane eventKey="simple">
                                 <SimpleForm />
                             </Tab.Pane>
@@ -55,7 +74,7 @@ const Components = () => {
                             <Tab.Pane eventKey="pdf">
                                 <PDFForm />
                             </Tab.Pane>
-                            <Tab.Pane eventKey="custom">
+                            <Tab.Pane eventKey="multilang">
                                 <CustomBuilder />
                             </Tab.Pane>
                         </Tab.Content>

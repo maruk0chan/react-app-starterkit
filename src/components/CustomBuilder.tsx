@@ -4,20 +4,26 @@ import { Col, Row } from "react-bootstrap";
 import { CopyBlock, atomOneLight } from "react-code-blocks";
 
 const CustomBuilder = () => {
-    const [options] = useState({
+    const [options, setOptions] = useState({
         language: "en",
         i18n: {
-            jp: {
+            tc: {
                 Label: "ラベル",
                 "Label Position": "ラベルの位置",
                 Placeholder: "プレースホルダー",
                 Description: "説明文",
+                Display: "表示",
+                "Type to search": "表示",
+                "Text Field": "テキストフィールド",
             },
         },
     });
     const handler = (lang: string) => {
-        options.language = lang;
+        setOptions((prev) => {
+            return { ...prev, language: lang };
+        });
     };
+
     return (
         <>
             <Row>
@@ -46,7 +52,7 @@ const CustomBuilder = () => {
 const [options,setOptions] = useState({
   language: 'en',
   i18n: {
-    jp: {
+    tc: {
       'Label': 'ラベル',
       'Label Position': 'ラベルの位置',
       'Placeholder': 'プレースホルダー',
@@ -61,8 +67,11 @@ const [options,setOptions] = useState({
                     />
                     <div className="py-3">
                         <button onClick={() => handler("en")}>English</button>
-                        <button onClick={() => handler("jp")}>Japanese</button>
-                        <FormBuilder options={options} />
+                        <button onClick={() => handler("tc")}>
+                            Chinese (Traditional)
+                        </button>
+                        {/* {renderBuilder()} */}
+                        <FormBuilder options={options} />;
                     </div>
                 </Col>
             </Row>

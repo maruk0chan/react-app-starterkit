@@ -18,7 +18,10 @@
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "paths": {
+            "@/*": ["./src/*"]
+        }
     },
     "include": ["src", "../react-app-starterkit_bak/src/App.js"],
     "references": [{ "path": "./tsconfig.node.json" }]
