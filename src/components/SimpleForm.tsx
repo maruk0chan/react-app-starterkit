@@ -130,11 +130,11 @@ const SimpleForm = () => {
                         {pages.map((p) => (
                             <option value={p.id}>
                                 {p?.verify ? "✔" : "✗"}{" "}
-                                {!p?.src && "(.json not ready)"} {p.label}
+                                {!p?.src && "(.json not ready)"} {p?.label}
                             </option>
                         ))}
                     </select>
-                    <h2>{page.label}</h2>
+                    <h2>{page?.label}</h2>
 
                     <div className="py-3">
                         {page?.src && <Form src={page?.src} />}
