@@ -5,6 +5,7 @@ import section_a1 from "@/components/sample-input-json/session-a1-BQ17005.json";
 import section_a6 from "@/components/sample-input-json/section-a6-BQ17019.json";
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import index from "@/components/sample-input-json/index.json";
+import glossary from "@/components/sample-input-json/glossary.json";
 
 interface Page {
     id: string;
@@ -35,7 +36,7 @@ const pages: Page[] = [
         id: "glossary",
         label: "Glossary",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: glossary as FormSource,
     },
     {
         id: "section a1",
