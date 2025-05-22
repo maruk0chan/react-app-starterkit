@@ -1,7 +1,7 @@
 import { Form, FormBuilder, FormType } from "@formio/react";
 // import ReactJson from "@microlink/react-json-view";
 import { useState } from "react";
-import section_a1 from "@/components/sample-input-json/session-a1-BQ17005.json";
+import section_a1 from "@/components/sample-input-json/section-a1-BQ17005.json";
 
 // import wizardSchema from "../sample-input-json/wizard.json";
 import "./Builder.css";
