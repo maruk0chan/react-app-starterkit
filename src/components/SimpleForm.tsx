@@ -2,7 +2,13 @@ import { Form, type FormSource } from "@formio/react";
 import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import section_a1 from "@/components/sample-input-json/section-a1-BQ17005.json";
+import section_a2 from "@/components/sample-input-json/section-a2-BQ17006.json";
+import section_a3 from "@/components/sample-input-json/section-a3-BQ17011.json";
+import section_a4 from "@/components/sample-input-json/section-a4-BQ17014.json";
+import section_a5 from "@/components/sample-input-json/section-a5-BQ17015.json";
 import section_a6 from "@/components/sample-input-json/section-a6-BQ17019.json";
+import section_a7 from "@/components/sample-input-json/section-a7-BQ17023.json";
+import section_a8 from "@/components/sample-input-json/section-a8-BQ17024.json";
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import index from "@/components/sample-input-json/index.json";
 import glossary from "@/components/sample-input-json/glossary.json";
@@ -48,25 +54,25 @@ const pages: Page[] = [
         id: "section a2",
         label: "Section A2 - Management and Supervision (BQ17006 - BQ17010)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a2 as FormSource,
     },
     {
         id: "section_a3",
         label: "section A3 - remote booking and transfer pricing arrangements and other non-regulated business activities (bq17011 - bq17013)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a3 as FormSource,
     },
     {
         id: "section a4",
         label: "Section A4 - Outsourcing (BQ17014 - BQ17014B)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a4 as FormSource,
     },
     {
         id: "section a5",
         label: "Section A5 - Compliance (BQ17015 - BQ17018)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a5 as FormSource,
     },
     {
         id: "section a6",
@@ -78,13 +84,13 @@ const pages: Page[] = [
         id: "section a7",
         label: "Section A7 - Finance and Accounting (BQ17023)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a7 as FormSource,
     },
     {
         id: "section a8",
         label: "Section A8 - Handling of Client Accounts and Client Assets Protection (BQ17024 - BQ17039)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a8 as FormSource,
     },
     {
         id: "section a9",
