@@ -1,7 +1,7 @@
 import { Form, type FormSource } from "@formio/react";
 import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import section_a1 from "./sample-input-json/session-a1-BQ17005.json";
+import section_a1 from "./sample-input-json/section-a1-BQ17005.json";
 import section_a6 from "./sample-input-json/section-a6-BQ17019.json";
 
 interface Page {
