@@ -10,6 +10,7 @@ import section_a6 from "@/components/sample-input-json/section-a6-BQ17019.json";
 import section_a7 from "@/components/sample-input-json/section-a7-BQ17023.json";
 import section_a8 from "@/components/sample-input-json/section-a8-BQ17024.json";
 import section_a9 from "@/components/sample-input-json/section-a9-BQ17040A.json";
+import section_a10 from "@/components/sample-input-json/section-A10-BQ17056.json";
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import index from "@/components/sample-input-json/index.json";
 import glossary from "@/components/sample-input-json/glossary.json";
@@ -103,7 +104,7 @@ const pages: Page[] = [
         id: "section a10",
         label: "Section A10 - Information Technology (BQ17056 - BQ17065)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a10 as FormSource,
     },
     {
         id: "section a11",
