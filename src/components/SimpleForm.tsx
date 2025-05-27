@@ -13,9 +13,11 @@ import section_a9 from "@/components/sample-input-json/section-a9-BQ17040A.json"
 import section_a10 from "@/components/sample-input-json/section-A10-BQ17056.json";
 import section_a11 from "@/components/sample-input-json/section-a11-BQ17066.json";
 import section_a12 from "@/components/sample-input-json/section-a12-BQ22A1201.json";
+import frontPage from "@/components/sample-input-json/frontPage.json";
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import index from "@/components/sample-input-json/index.json";
 import glossary from "@/components/sample-input-json/glossary.json";
+import supplyInfo from "@/components/sample-input-json/supplyInfo.json";
 
 interface Page {
     id: string;
@@ -28,7 +30,7 @@ const pages: Page[] = [
         id: "front_page",
         label: "Front Page",
         verify: false,
-        // src: section_a1 as FormSource,
+        src: frontPage as FormSource,
     },
     {
         id: "completion_notes",
@@ -124,7 +126,7 @@ const pages: Page[] = [
         id: "supplementary_information_bq17245a",
         label: "Supplementary Information (BQ17245A)",
         verify: false,
-        src: section_a6 as FormSource,
+        src: supplyInfo as FormSource,
     },
 ];
 
