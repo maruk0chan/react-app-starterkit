@@ -12,6 +12,7 @@ import section_a8 from "@/components/sample-input-json/section-a8-BQ17024.json";
 import section_a9 from "@/components/sample-input-json/section-a9-BQ17040A.json";
 import section_a10 from "@/components/sample-input-json/section-A10-BQ17056.json";
 import section_a11 from "@/components/sample-input-json/section-a11-BQ17066.json";
+import section_a12 from "@/components/sample-input-json/section-a12-BQ22A1201.json";
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import index from "@/components/sample-input-json/index.json";
 import glossary from "@/components/sample-input-json/glossary.json";
@@ -117,7 +118,7 @@ const pages: Page[] = [
         id: "section a12",
         label: "Section A12 - Anti-Money Laundering and Counter-Financing of Terrorism (BQ22A1201 - BQ22A1235)",
         verify: false,
-        // src: section_a6 as FormSource,
+        src: section_a12 as FormSource,
     },
     {
         id: "supplementary_information_bq17245a",
