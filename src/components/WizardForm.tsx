@@ -223,10 +223,21 @@ const WizardForm = () => {
                         codeBlock={true}
                         showLineNumbers={false}
                     />
+                    <button
+                        onClick={async () => {
+                            let result = pages.map(p => p.src);
+                            
+                            console.log(result);
+                            navigator.clipboard.writeText(JSON.stringify(result));
+                        }}
+                    >
+                        console log and copy schema
+                    </button>
                     <div className="py-3">
                         <Form src={WizardComponent(stepsComponents)} />
                         {/* <Form src={"https://examples.form.io/wizard"} /> */}
                     </div>
+
                 </Col>
             </Row>
         </>
