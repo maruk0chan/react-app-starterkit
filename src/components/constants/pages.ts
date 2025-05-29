@@ -1,4 +1,4 @@
-import { type FormSource, type FormType } from "@formio/react";
+import { type FormType } from "@formio/react";
 
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import frontPage from "@/components/sample-input-json/frontPage.json";

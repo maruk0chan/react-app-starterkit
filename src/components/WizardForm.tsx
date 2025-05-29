@@ -138,8 +138,7 @@ const WizardComponent = (stepsComponents): FormType => {
         ],
         tags: ["common"],
         settings: {
-            controller:
-                "['$scope', function($scope) { $scope.$watch('submission.data', function(data) { console.log(data); }, true); }]",
+            hideTitle: false,
         },
         revisions: "",
         _vid: 0,
@@ -202,9 +201,7 @@ const WizardComponent = (stepsComponents): FormType => {
             ],
             _id: "66ec8aa04c84bfbb85c8de4f",
         },
-        pdfComponents: [],
         submissionRevisions: "",
-        plan: "commercial",
     };
 };
 
