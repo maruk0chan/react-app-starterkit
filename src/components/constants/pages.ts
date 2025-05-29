@@ -1,4 +1,4 @@
-import { type FormSource } from "@formio/react";
+import { type FormSource, type FormType } from "@formio/react";
 
 import completion_notes from "@/components/sample-input-json/completion_notes.json";
 import frontPage from "@/components/sample-input-json/frontPage.json";
@@ -22,7 +22,7 @@ export interface Page {
     id: string;
     label: string;
     verify: boolean;
-    src?: FormSource;
+    src?: FormType;
 }
 export const pages: Page[] = [
     {

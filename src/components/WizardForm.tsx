@@ -1,5 +1,5 @@
 import { pages } from "@/components/constants/pages";
-import { Form } from "@formio/react";
+import { Form, type FormType } from "@formio/react";
 import { Col, Row } from "react-bootstrap";
 import { CopyBlock, atomOneLight } from "react-code-blocks";
 
@@ -73,11 +73,11 @@ const createStep = (key, title, components) => {
     };
 };
 
-const stepsComponents = pages.map((p) =>
-    createStep(p.id, p.label, p.src?.components),
-);
+const stepsComponents = pages.map((p) => {
+    return createStep(p.id, p.label, p.src?.components);
+});
 
-const WizardComponent = (stepsComponents) => {
+const WizardComponent = (stepsComponents): FormType => {
     return {
         _id: "578f930ef1912f8000459a50",
         machineName: "examples:wizard",
