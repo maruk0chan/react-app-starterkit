@@ -2,7 +2,6 @@ import { pages } from "@/components/constants/pages";
 import { Form } from "@formio/react";
 import { Col, Row } from "react-bootstrap";
 import { CopyBlock, atomOneLight } from "react-code-blocks";
-import wizard_sample from "@/components/sample-input-json/wizard-sample.json";
 
 const createStep = (key, title, components) => {
     return {
@@ -10,48 +9,203 @@ const createStep = (key, title, components) => {
         title,
         components,
         input: false,
-        theme: "primary",
         type: "panel",
+        tableView: false,
+        label: "Panel",
+        id: "euwmfa",
+        placeholder: "",
+        prefix: "",
+        customClass: "",
+        suffix: "",
+        multiple: false,
+        defaultValue: null,
+        protected: false,
+        unique: false,
+        persistent: false,
+        hidden: false,
+        clearOnHide: false,
+        refreshOn: "",
+        redrawOn: "",
+        modalEdit: false,
+        dataGridLabel: false,
+        labelPosition: "top",
+        description: "",
+        errorLabel: "",
+        tooltip: "",
+        hideLabel: false,
+        tabindex: "",
+        disabled: false,
+        autofocus: false,
+        dbIndex: false,
+        customDefaultValue: "",
+        calculateValue: "",
+        calculateServer: false,
+        widget: null,
+        attributes: {},
+        validateOn: "change",
+        validate: {
+            required: false,
+            custom: "",
+            customPrivate: false,
+            strictDateValidation: false,
+            multiple: false,
+            unique: false,
+        },
+        conditional: { show: null, when: null, eq: "" },
+        overlay: {
+            style: "",
+            left: "",
+            top: "",
+            width: "",
+            height: "",
+        },
+        allowCalculateOverride: false,
+        encrypted: false,
+        showCharCount: false,
+        showWordCount: false,
+        properties: {},
+        allowMultipleMasks: false,
+        addons: [],
+        tree: false,
+        lazyLoad: false,
+        theme: "default",
+        breadcrumb: "default",
     };
 };
 
-const StepsComponent = pages.map((p) =>
+const stepsComponents = pages.map((p) =>
     createStep(p.id, p.label, p.src?.components),
 );
 
-const WizardComponent = {
-    _id: "5683335f0dfe9f01006c498b",
-    machineName: "wizard:wizard",
-    modified: "2016-01-12T02:00:14.151Z",
-    title: "Wizard",
-    type: "form",
-    name: "wizard",
-    path: "wizard",
-    project: "557e303a13dbd70e77bb6474",
-    created: "2015-12-30T01:29:03.833Z",
-    components: StepsComponent,
-    owner: "553dbfc08d22d5cb1a7024f2",
-    submissionAccess: [
-        { type: "create_all", roles: [] },
-        { type: "read_all", roles: [] },
-        { type: "update_all", roles: [] },
-        { type: "delete_all", roles: [] },
-        { type: "create_own", roles: ["55cd5c3ca51a96bef99ef5ac"] },
-        { type: "read_own", roles: [] },
-        { type: "update_own", roles: [] },
-        { type: "delete_own", roles: [] },
-    ],
-    access: [
-        {
-            type: "read_all",
-            roles: [
-                "55cd5c3ca51a96bef99ef5aa",
-                "55cd5c3ca51a96bef99ef5ab",
-                "55cd5c3ca51a96bef99ef5ac",
-            ],
+const WizardComponent = (stepsComponents) => {
+    return {
+        _id: "578f930ef1912f8000459a50",
+        machineName: "examples:wizard",
+        modified: "2024-09-19T20:33:36.892Z",
+        title: "Wizard",
+        display: "wizard",
+        type: "form",
+        name: "wizard",
+        path: "wizard",
+        project: "5692b91fd1028f01000407e3",
+        created: "2016-07-20T15:04:46.906Z",
+        components: [
+            ...stepsComponents,
+            {
+                type: "button",
+                disableOnInvalid: true,
+                key: "submit",
+                tableView: false,
+                label: "Submit",
+                input: true,
+            },
+        ],
+        owner: "55673dc04f0405dd28205bb7",
+        submissionAccess: [
+            { type: "create_own", roles: ["5692b920d1028f01000407e6"] },
+            { type: "create_all", roles: [] },
+            { type: "read_own", roles: [] },
+            { type: "read_all", roles: ["5692b920d1028f01000407e6"] },
+            { type: "update_own", roles: [] },
+            { type: "update_all", roles: [] },
+            { type: "delete_own", roles: [] },
+            { type: "delete_all", roles: [] },
+            { type: "team_read", roles: [] },
+            { type: "team_write", roles: [] },
+            { type: "team_admin", roles: [] },
+        ],
+        access: [
+            { type: "create_own", roles: [] },
+            { type: "create_all", roles: [] },
+            { type: "read_own", roles: [] },
+            {
+                type: "read_all",
+                roles: [
+                    "5692b920d1028f01000407e4",
+                    "5692b920d1028f01000407e5",
+                    "5692b920d1028f01000407e6",
+                    "6556376d043f6ce752e40641",
+                    "000000000000000000000000",
+                ],
+            },
+            { type: "update_own", roles: [] },
+            { type: "update_all", roles: [] },
+            { type: "delete_own", roles: [] },
+            { type: "delete_all", roles: [] },
+            { type: "team_read", roles: [] },
+            { type: "team_write", roles: [] },
+            { type: "team_admin", roles: [] },
+        ],
+        tags: ["common"],
+        settings: {
+            controller:
+                "['$scope', function($scope) { $scope.$watch('submission.data', function(data) { console.log(data); }, true); }]",
         },
-    ],
-    plan: "archived",
+        revisions: "",
+        _vid: 0,
+        controller: "",
+        properties: {},
+        fieldMatchAccess: {
+            read: [
+                {
+                    formFieldPath: "",
+                    value: "",
+                    operator: "$eq",
+                    valueType: "string",
+                    roles: [],
+                },
+            ],
+            write: [
+                {
+                    formFieldPath: "",
+                    value: "",
+                    operator: "$eq",
+                    valueType: "string",
+                    roles: [],
+                },
+            ],
+            create: [
+                {
+                    formFieldPath: "",
+                    value: "",
+                    operator: "$eq",
+                    valueType: "string",
+                    roles: [],
+                },
+            ],
+            admin: [
+                {
+                    formFieldPath: "",
+                    value: "",
+                    operator: "$eq",
+                    valueType: "string",
+                    roles: [],
+                },
+            ],
+            delete: [
+                {
+                    formFieldPath: "",
+                    value: "",
+                    operator: "$eq",
+                    valueType: "string",
+                    roles: [],
+                },
+            ],
+            update: [
+                {
+                    formFieldPath: "",
+                    value: "",
+                    operator: "$eq",
+                    valueType: "string",
+                    roles: [],
+                },
+            ],
+            _id: "66ec8aa04c84bfbb85c8de4f",
+        },
+        pdfComponents: [],
+        submissionRevisions: "",
+        plan: "commercial",
+    };
 };
 
 const WizardForm = () => {
@@ -73,7 +227,7 @@ const WizardForm = () => {
                         showLineNumbers={false}
                     />
                     <div className="py-3">
-                        <Form src={wizard_sample ?? WizardComponent} />
+                        <Form src={WizardComponent(stepsComponents)} />
                         {/* <Form src={"https://examples.form.io/wizard"} /> */}
                     </div>
                 </Col>
