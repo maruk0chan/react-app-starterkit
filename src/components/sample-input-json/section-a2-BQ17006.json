@@ -71,7 +71,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e7ztg3o"
+            "id": "e00wjq"
         },
         {
             "label": "Table",
@@ -228,7 +228,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ewk5qvb"
+                                "id": "emj7c56"
                             }
                         ]
                     },
@@ -304,7 +304,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "eyj8wv"
+                                "id": "ed0wop"
                             }
                         ]
                     },
@@ -380,7 +380,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "encbw7i"
+                                "id": "eptnj2j"
                             }
                         ]
                     },
@@ -456,7 +456,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ej5ven"
+                                "id": "e126wec"
                             }
                         ]
                     },
@@ -532,7 +532,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ej419gh"
+                                "id": "ef4sap"
                             }
                         ]
                     }
@@ -610,7 +610,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "et8tbea"
+                                "id": "eou3r6d"
                             }
                         ]
                     },
@@ -633,7 +633,7 @@
                                 "key": "radio3",
                                 "type": "radio",
                                 "input": true,
-                                "id": "eo3ku1",
+                                "id": "efcfnl",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -797,7 +797,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ejn2y0s",
+                                "id": "eetu1d",
                                 "defaultValue": ""
                             }
                         ]
@@ -821,7 +821,7 @@
                                 "key": "radio1",
                                 "type": "radio",
                                 "input": true,
-                                "id": "ew9uys",
+                                "id": "e1hgthl",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -910,7 +910,7 @@
                                 "key": "radio1",
                                 "type": "radio",
                                 "input": true,
-                                "id": "efavq9n",
+                                "id": "ejy1ugf",
                                 "placeholder": "",
                                 "prefix": "",
                                 "customClass": "",
@@ -1074,7 +1074,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "enu5ya",
+                                "id": "e2ej9m",
                                 "defaultValue": ""
                             },
                             {
@@ -1147,7 +1147,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "efryesd"
+                                "id": "egzidye"
                             },
                             {
                                 "label": "Text Field",
@@ -1235,7 +1235,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "ez0r7v8",
+                                "id": "e6vfi7o",
                                 "defaultValue": ""
                             }
                         ]
@@ -1314,7 +1314,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ealosej"
+                                "id": "e3bm1v"
                             }
                         ]
                     },
@@ -1412,7 +1412,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eswh0rk",
+                                "id": "e2pn9b",
                                 "defaultValue": ""
                             }
                         ]
@@ -1511,7 +1511,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e7u0wqm",
+                                "id": "e8n3z1g",
                                 "defaultValue": ""
                             }
                         ]
@@ -1610,7 +1610,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ez95nxr",
+                                "id": "ezb5nq",
                                 "defaultValue": ""
                             }
                         ]
@@ -1709,7 +1709,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ek8b34q",
+                                "id": "eteiye",
                                 "defaultValue": ""
                             }
                         ]
@@ -1808,7 +1808,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ejwx9o",
+                                "id": "eglet2g",
                                 "defaultValue": ""
                             },
                             {
@@ -1881,7 +1881,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "es5qrb8"
+                                "id": "ejvoab"
                             },
                             {
                                 "label": "Text Field",
@@ -1969,7 +1969,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "ejj1p1j",
+                                "id": "e7aphe4",
                                 "defaultValue": ""
                             }
                         ]
@@ -2048,7 +2048,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ep97oao"
+                                "id": "et51v9f"
                             }
                         ]
                     },
@@ -2146,7 +2146,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eqmapcf",
+                                "id": "e90qqsq",
                                 "defaultValue": ""
                             }
                         ]
@@ -2245,7 +2245,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ews93zl",
+                                "id": "ehv1utq",
                                 "defaultValue": ""
                             }
                         ]
@@ -2344,7 +2344,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e61q9vf",
+                                "id": "ets8ez",
                                 "defaultValue": ""
                             }
                         ]
@@ -2443,7 +2443,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e8o2409",
+                                "id": "etb9o8j",
                                 "defaultValue": ""
                             }
                         ]
@@ -2542,7 +2542,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ez6lw47",
+                                "id": "e1swi7",
                                 "defaultValue": ""
                             },
                             {
@@ -2615,7 +2615,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ey2q9lp"
+                                "id": "e5vfn2g"
                             },
                             {
                                 "label": "Text Field",
@@ -2703,7 +2703,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "epfyj5m",
+                                "id": "e0m3zsa",
                                 "defaultValue": ""
                             }
                         ]
@@ -2782,7 +2782,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ejb9fkl"
+                                "id": "eui9xwl"
                             }
                         ]
                     },
@@ -2880,7 +2880,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "efpryeq",
+                                "id": "esrgro",
                                 "defaultValue": ""
                             }
                         ]
@@ -2979,7 +2979,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e5gwjtv",
+                                "id": "ee9gp2a",
                                 "defaultValue": ""
                             }
                         ]
@@ -3078,7 +3078,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "enkdnx",
+                                "id": "en0wgza",
                                 "defaultValue": ""
                             }
                         ]
@@ -3177,7 +3177,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eez843c",
+                                "id": "ems6zp",
                                 "defaultValue": ""
                             }
                         ]
@@ -3276,7 +3276,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eg5w4ci",
+                                "id": "e77netv",
                                 "defaultValue": ""
                             },
                             {
@@ -3349,7 +3349,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "eleigsgg"
+                                "id": "eeisxdj"
                             },
                             {
                                 "label": "Text Field",
@@ -3437,7 +3437,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "e8goq6u",
+                                "id": "e605mnm",
                                 "defaultValue": ""
                             }
                         ]
@@ -3516,7 +3516,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "e9di19d"
+                                "id": "epqt35"
                             }
                         ]
                     },
@@ -3614,7 +3614,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eeydwu",
+                                "id": "eqpelvr",
                                 "defaultValue": ""
                             }
                         ]
@@ -3713,7 +3713,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e8d2xh",
+                                "id": "eg3yyn5",
                                 "defaultValue": ""
                             }
                         ]
@@ -3812,7 +3812,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e1ott9m",
+                                "id": "ejj2clo",
                                 "defaultValue": ""
                             }
                         ]
@@ -3911,7 +3911,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ex56g8j",
+                                "id": "enajok",
                                 "defaultValue": ""
                             }
                         ]
@@ -4010,7 +4010,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e8l5zlo",
+                                "id": "ezb3o96",
                                 "defaultValue": ""
                             },
                             {
@@ -4083,7 +4083,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "er8ha15"
+                                "id": "e8pybrg"
                             },
                             {
                                 "label": "Text Field",
@@ -4171,7 +4171,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "eihmoka",
+                                "id": "emb5dpr",
                                 "defaultValue": ""
                             }
                         ]
@@ -4250,7 +4250,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "e000lzj"
+                                "id": "ebx2eb"
                             }
                         ]
                     },
@@ -4348,7 +4348,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ebgl8vb",
+                                "id": "efm1x5m",
                                 "defaultValue": ""
                             }
                         ]
@@ -4447,7 +4447,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "e6b9s7",
+                                "id": "e3pflxa",
                                 "defaultValue": ""
                             }
                         ]
@@ -4546,7 +4546,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ednz5om",
+                                "id": "ec8ivmg",
                                 "defaultValue": ""
                             }
                         ]
@@ -4645,7 +4645,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "ebk7xb",
+                                "id": "ex4eft",
                                 "defaultValue": ""
                             }
                         ]
@@ -4744,7 +4744,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eio3ncp",
+                                "id": "evf6q0f",
                                 "defaultValue": ""
                             },
                             {
@@ -4817,7 +4817,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ebieg6k"
+                                "id": "ep1w799"
                             },
                             {
                                 "label": "Text Field",
@@ -4905,7 +4905,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "e2del8k",
+                                "id": "e6i6qnt",
                                 "defaultValue": ""
                             }
                         ]
@@ -4914,7 +4914,7 @@
             ],
             "header": [],
             "caption": "",
-            "id": "efu8yvl"
+            "id": "efmovx"
         },
         {
             "html": "<p><strong>2 (a) Does the board of directors monitor and evaluate the performance of Managers-In-Charge and Responsible Officers of the Licensed Corporation in their respective areas of responsibility? [BQ17007_01]</strong></p>",
@@ -4986,7 +4986,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eg5n71n"
+            "id": "esq95ug"
         },
         {
             "label": "Radio_2_Yes",
@@ -5080,7 +5080,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "eoz4i0q",
+            "id": "ezna0og",
             "defaultValue": ""
         },
         {
@@ -5175,7 +5175,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "e6i0eqx",
+            "id": "e830tq7",
             "defaultValue": ""
         },
         {
@@ -5275,7 +5275,7 @@
                             "ignoreCache": false,
                             "inputType": "radio",
                             "fieldSet": false,
-                            "id": "eov8uq",
+                            "id": "e64kss",
                             "defaultValue": ""
                         }
                     ],
@@ -5374,7 +5374,7 @@
                             "dataGridLabel": false,
                             "addons": [],
                             "inputType": "text",
-                            "id": "eszik4m",
+                            "id": "e3amr1",
                             "defaultValue": ""
                         }
                     ],
@@ -5455,7 +5455,7 @@
             "addons": [],
             "tree": false,
             "lazyLoad": false,
-            "id": "eixe0gl"
+            "id": "eybk0wi"
         },
         {
             "html": "<p><strong>2 (b) If the answer is \"Yes\" in (a), how frequently is such performance evaluation conducted? [BQ17007_02]</strong></p>",
@@ -5527,7 +5527,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "evkxn7m"
+            "id": "eooyan"
         },
         {
             "label": "Radio_2_b_At least quarterly",
@@ -5621,7 +5621,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "ezntme8",
+            "id": "e7lzbwn",
             "defaultValue": ""
         },
         {
@@ -5716,7 +5716,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "egvaj2k",
+            "id": "epp5u1i",
             "defaultValue": ""
         },
         {
@@ -5811,7 +5811,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "elrgavs",
+            "id": "eypvhh9",
             "defaultValue": ""
         },
         {
@@ -5906,7 +5906,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "eyjbt4",
+            "id": "erkdp8e",
             "defaultValue": ""
         },
         {
@@ -5979,7 +5979,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eu1t6go"
+            "id": "e4ykyg"
         },
         {
             "label": "(a) Subscription of related industry journals, newspapers and/ or other publications",
@@ -6056,7 +6056,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ebb3gp",
+            "id": "eygym4p",
             "defaultValue": false
         },
         {
@@ -6134,7 +6134,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eaqqh1",
+            "id": "eggjz7d",
             "defaultValue": false
         },
         {
@@ -6212,7 +6212,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eon7q9j",
+            "id": "e5024la",
             "defaultValue": false
         },
         {
@@ -6290,7 +6290,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e69g6e",
+            "id": "ewnog6e",
             "defaultValue": false
         },
         {
@@ -6368,7 +6368,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ego0v8o",
+            "id": "e22jpv",
             "defaultValue": false
         },
         {
@@ -6451,7 +6451,7 @@
                             "showWordCount": false,
                             "allowMultipleMasks": false,
                             "addons": [],
-                            "id": "e233dz",
+                            "id": "eupsdx8",
                             "defaultValue": false
                         }
                     ],
@@ -6550,7 +6550,7 @@
                             "dataGridLabel": false,
                             "addons": [],
                             "inputType": "text",
-                            "id": "e35fr5i",
+                            "id": "e0zfsxy",
                             "defaultValue": ""
                         }
                     ],
@@ -6631,7 +6631,7 @@
             "addons": [],
             "tree": false,
             "lazyLoad": false,
-            "id": "epd8lsf"
+            "id": "e76q50h"
         },
         {
             "label": "Columns",
@@ -6713,7 +6713,7 @@
                             "showWordCount": false,
                             "allowMultipleMasks": false,
                             "addons": [],
-                            "id": "edkhpl",
+                            "id": "ewuhn",
                             "defaultValue": false
                         }
                     ],
@@ -6812,7 +6812,7 @@
                             "dataGridLabel": false,
                             "addons": [],
                             "inputType": "text",
-                            "id": "esd09r9",
+                            "id": "eo8qf2s",
                             "defaultValue": ""
                         }
                     ],
@@ -6893,7 +6893,7 @@
             "addons": [],
             "tree": false,
             "lazyLoad": false,
-            "id": "elxkrny"
+            "id": "ef8uf68"
         },
         {
             "html": "<p><strong>4 Does the Licensed Corporation offer any training to its staff carrying out the following functions to ensure that they possess adequate and up-to-date business and compliance knowledge for fulfilling their responsibilities? [BQ17009]</strong></p>",
@@ -6965,7 +6965,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eotqcob"
+            "id": "e04ysd"
         },
         {
             "label": "Survey_4",
@@ -7097,7 +7097,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ewf95gl",
+            "id": "ewv8rk",
             "defaultValue": {}
         },
         {
@@ -7170,7 +7170,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eq9favc"
+            "id": "eea7ne"
         },
         {
             "html": "<p><strong>5 (a) Determine remuneration based on:</strong><br><strong>(Please choose all options that are applicable to the Licensed Corporation.) [BQ17010_01]</strong></p>",
@@ -7242,7 +7242,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e5j5tj"
+            "id": "epgauen"
         },
         {
             "label": "(i) Business performance",
@@ -7319,7 +7319,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ejxzkc",
+            "id": "ei7h",
             "defaultValue": false
         },
         {
@@ -7397,7 +7397,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ecmb57f",
+            "id": "ecvkk5",
             "defaultValue": false
         },
         {
@@ -7470,7 +7470,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eak807"
+            "id": "e8zplr"
         },
         {
             "label": "(i) Defer payment of remuneration",
@@ -7547,7 +7547,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ecsnec",
+            "id": "ep5zc4j",
             "defaultValue": false
         },
         {
@@ -7625,7 +7625,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e1qxwn5",
+            "id": "eo94y3n8",
             "defaultValue": false
         },
         {
@@ -7703,7 +7703,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eiijo8m",
+            "id": "er6jv0m",
             "defaultValue": false
         },
         {
@@ -7781,7 +7781,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e06ek0n",
+            "id": "ef0tnrj",
             "defaultValue": false
         },
         {
@@ -7864,7 +7864,7 @@
                             "showWordCount": false,
                             "allowMultipleMasks": false,
                             "addons": [],
-                            "id": "ep2roq",
+                            "id": "egio4t8",
                             "defaultValue": false
                         }
                     ],
@@ -7963,7 +7963,7 @@
                             "dataGridLabel": false,
                             "addons": [],
                             "inputType": "text",
-                            "id": "ezv4abq",
+                            "id": "e980fz",
                             "defaultValue": ""
                         }
                     ],
@@ -8044,7 +8044,7 @@
             "addons": [],
             "tree": false,
             "lazyLoad": false,
-            "id": "el8ij0h"
+            "id": "eycetqi"
         },
         {
             "html": "<p><strong>6 Please state the number of staff (including both licensed and non-licensedNote) of the Licensed Corporation as at last calendar year end, i.e. 31 December. [BQ17010A_01]</strong></p>",
@@ -8116,7 +8116,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "efnyvtq"
+            "id": "euyyzlk"
         },
         {
             "html": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(51,51,51);\"><i>Note: For the purpose of this question, this includes but not limited to staff employed or appointed by the Licensed Corporation to conduct business on behalf of the Licensed Corporation.</i></span></p>",
@@ -8188,7 +8188,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eyaavpp"
+            "id": "e1otijd"
         },
         {
             "label": "Text Field",
@@ -8276,82 +8276,8 @@
             "dataGridLabel": false,
             "addons": [],
             "inputType": "text",
-            "id": "envi8kh",
+            "id": "e7m1njh",
             "defaultValue": ""
-        },
-        {
-            "type": "button",
-            "label": "Submit",
-            "key": "submit",
-            "size": "md",
-            "block": false,
-            "action": "submit",
-            "disableOnInvalid": true,
-            "theme": "primary",
-            "id": "evcr3oc",
-            "input": true,
-            "placeholder": "",
-            "prefix": "",
-            "customClass": "",
-            "suffix": "",
-            "multiple": false,
-            "defaultValue": null,
-            "protected": false,
-            "unique": false,
-            "persistent": false,
-            "hidden": false,
-            "clearOnHide": true,
-            "refreshOn": "",
-            "redrawOn": "",
-            "tableView": false,
-            "modalEdit": false,
-            "dataGridLabel": true,
-            "labelPosition": "top",
-            "description": "",
-            "errorLabel": "",
-            "tooltip": "",
-            "hideLabel": false,
-            "tabindex": "",
-            "disabled": false,
-            "autofocus": false,
-            "dbIndex": false,
-            "customDefaultValue": "",
-            "calculateValue": "",
-            "calculateServer": false,
-            "widget": {
-                "type": "input"
-            },
-            "attributes": {},
-            "validateOn": "change",
-            "validate": {
-                "required": false,
-                "custom": "",
-                "customPrivate": false,
-                "strictDateValidation": false,
-                "multiple": false,
-                "unique": false
-            },
-            "conditional": {
-                "show": null,
-                "when": null,
-                "eq": ""
-            },
-            "overlay": {
-                "style": "",
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
-            },
-            "allowCalculateOverride": false,
-            "encrypted": false,
-            "showCharCount": false,
-            "showWordCount": false,
-            "properties": {},
-            "allowMultipleMasks": false,
-            "addons": [],
-            "leftIcon": "",
-            "rightIcon": ""
         }
     ]
 }

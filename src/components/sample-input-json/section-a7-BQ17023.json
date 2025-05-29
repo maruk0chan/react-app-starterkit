@@ -70,7 +70,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "efowxin"
+            "id": "ecgelxs"
         },
         {
             "html": "<p><strong>1 (a) Prepare management accounts at least monthly [BQ17023_01]</strong></p>",
@@ -142,7 +142,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eiv4si"
+            "id": "efp88vp"
         },
         {
             "label": "Radio_1_a",
@@ -241,7 +241,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "e6kdkmp",
+            "id": "eaxjb08",
             "defaultValue": ""
         },
         {
@@ -314,7 +314,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eurznw"
+            "id": "en2l38"
         },
         {
             "label": "Survey",
@@ -358,7 +358,7 @@
             "key": "survey",
             "type": "survey",
             "input": true,
-            "id": "eryyupk",
+            "id": "e1sgtf2",
             "placeholder": "",
             "prefix": "",
             "customClass": "",
@@ -486,7 +486,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ekx2w5d"
+            "id": "e9acef"
         },
         {
             "label": "Radio",
@@ -585,7 +585,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "epb53y4",
+            "id": "enpepvq",
             "defaultValue": ""
         },
         {
@@ -658,7 +658,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "ejhrws"
+            "id": "edok3hbq"
         },
         {
             "label": "Radio",
@@ -762,82 +762,8 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "e8gker8",
+            "id": "eo8fx0j",
             "defaultValue": ""
-        },
-        {
-            "type": "button",
-            "label": "Submit",
-            "key": "submit",
-            "size": "md",
-            "block": false,
-            "action": "submit",
-            "disableOnInvalid": true,
-            "theme": "primary",
-            "id": "euv7jn4",
-            "input": true,
-            "placeholder": "",
-            "prefix": "",
-            "customClass": "",
-            "suffix": "",
-            "multiple": false,
-            "defaultValue": null,
-            "protected": false,
-            "unique": false,
-            "persistent": false,
-            "hidden": false,
-            "clearOnHide": true,
-            "refreshOn": "",
-            "redrawOn": "",
-            "tableView": false,
-            "modalEdit": false,
-            "dataGridLabel": true,
-            "labelPosition": "top",
-            "description": "",
-            "errorLabel": "",
-            "tooltip": "",
-            "hideLabel": false,
-            "tabindex": "",
-            "disabled": false,
-            "autofocus": false,
-            "dbIndex": false,
-            "customDefaultValue": "",
-            "calculateValue": "",
-            "calculateServer": false,
-            "widget": {
-                "type": "input"
-            },
-            "attributes": {},
-            "validateOn": "change",
-            "validate": {
-                "required": false,
-                "custom": "",
-                "customPrivate": false,
-                "strictDateValidation": false,
-                "multiple": false,
-                "unique": false
-            },
-            "conditional": {
-                "show": null,
-                "when": null,
-                "eq": ""
-            },
-            "overlay": {
-                "style": "",
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
-            },
-            "allowCalculateOverride": false,
-            "encrypted": false,
-            "showCharCount": false,
-            "showWordCount": false,
-            "properties": {},
-            "allowMultipleMasks": false,
-            "addons": [],
-            "leftIcon": "",
-            "rightIcon": ""
         }
     ]
 }

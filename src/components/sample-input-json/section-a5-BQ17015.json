@@ -70,7 +70,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eaxlubh"
+            "id": "eugvi2f"
         },
         {
             "label": "Radio_1_a",
@@ -169,7 +169,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "e9yxjj2f",
+            "id": "e2qu2t",
             "defaultValue": ""
         },
         {
@@ -324,7 +324,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "e7dq1c"
+                                "id": "e8jq8rk"
                             },
                             {
                                 "label": "Text Field",
@@ -412,7 +412,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "e7k0yr9",
+                                "id": "emb5uj",
                                 "defaultValue": ""
                             }
                         ]
@@ -421,7 +421,7 @@
             ],
             "header": [],
             "caption": "",
-            "id": "e145v5"
+            "id": "edznp4c"
         },
         {
             "html": "<p><strong>2 Does the Licensed Corporation maintain whistleblowing procedures for reporting by staff on any malpractices and unethical behaviors in an appropriate and confidential channel? [BQ17016]</strong></p>",
@@ -493,7 +493,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "edsf0u"
+            "id": "eqnqhtm"
         },
         {
             "label": "Radio_2",
@@ -592,7 +592,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "etodj2",
+            "id": "e8eqlo3",
             "defaultValue": ""
         },
         {
@@ -665,7 +665,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "e9gfb5l"
+            "id": "eebn97h"
         },
         {
             "html": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(51,51,51);\"><i>Note: Please report the number of staff who are stationed in Hong Kong.</i></span></p>",
@@ -737,7 +737,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "eycg4uj"
+            "id": "eatbnw"
         },
         {
             "label": "Text Field",
@@ -825,7 +825,7 @@
             "dataGridLabel": false,
             "addons": [],
             "inputType": "text",
-            "id": "e653hlk",
+            "id": "eqs036d",
             "defaultValue": ""
         },
         {
@@ -898,7 +898,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "exk8wpv"
+            "id": "e2wri1r"
         },
         {
             "label": "Radio",
@@ -1007,7 +1007,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "e6nukwj",
+            "id": "e881fo2",
             "defaultValue": ""
         },
         {
@@ -1080,7 +1080,7 @@
             "showWordCount": false,
             "allowMultipleMasks": false,
             "addons": [],
-            "id": "enb3jtw"
+            "id": "ewo0fkd"
         },
         {
             "label": "Radio_4_a",
@@ -1179,7 +1179,7 @@
             "ignoreCache": false,
             "inputType": "radio",
             "fieldSet": false,
-            "id": "es5o36p",
+            "id": "epaqks",
             "defaultValue": ""
         },
         {
@@ -1334,7 +1334,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "eejs2d"
+                                "id": "e5sd2xd"
                             },
                             {
                                 "label": "Radio",
@@ -1433,7 +1433,7 @@
                                 "ignoreCache": false,
                                 "inputType": "radio",
                                 "fieldSet": false,
-                                "id": "eax0m5c",
+                                "id": "emnd138",
                                 "defaultValue": ""
                             },
                             {
@@ -1506,7 +1506,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "eyxkx68"
+                                "id": "e9nz54f"
                             },
                             {
                                 "label": "(i) Pre-trade approval",
@@ -1583,7 +1583,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "elil5cd",
+                                "id": "e4c1zys",
                                 "defaultValue": false
                             },
                             {
@@ -1738,7 +1738,7 @@
                                                     "showWordCount": false,
                                                     "allowMultipleMasks": false,
                                                     "addons": [],
-                                                    "id": "eknw7y"
+                                                    "id": "eiagita"
                                                 },
                                                 {
                                                     "label": "(A) Director",
@@ -1815,7 +1815,7 @@
                                                     "showWordCount": false,
                                                     "allowMultipleMasks": false,
                                                     "addons": [],
-                                                    "id": "e11kaoh",
+                                                    "id": "efskrh",
                                                     "defaultValue": false
                                                 },
                                                 {
@@ -1893,7 +1893,7 @@
                                                     "showWordCount": false,
                                                     "allowMultipleMasks": false,
                                                     "addons": [],
-                                                    "id": "enogn8f",
+                                                    "id": "e3danus",
                                                     "defaultValue": false
                                                 },
                                                 {
@@ -1971,7 +1971,7 @@
                                                     "showWordCount": false,
                                                     "allowMultipleMasks": false,
                                                     "addons": [],
-                                                    "id": "em4gojp",
+                                                    "id": "e5afdrd",
                                                     "defaultValue": false
                                                 },
                                                 {
@@ -2049,7 +2049,7 @@
                                                     "showWordCount": false,
                                                     "allowMultipleMasks": false,
                                                     "addons": [],
-                                                    "id": "e4pted",
+                                                    "id": "em89tac",
                                                     "defaultValue": false
                                                 },
                                                 {
@@ -2127,7 +2127,7 @@
                                                     "showWordCount": false,
                                                     "allowMultipleMasks": false,
                                                     "addons": [],
-                                                    "id": "ejpa9ch",
+                                                    "id": "e4eyee7",
                                                     "defaultValue": false
                                                 },
                                                 {
@@ -2210,7 +2210,7 @@
                                                                     "showWordCount": false,
                                                                     "allowMultipleMasks": false,
                                                                     "addons": [],
-                                                                    "id": "eftgf6c",
+                                                                    "id": "eifljgf",
                                                                     "defaultValue": false
                                                                 }
                                                             ],
@@ -2309,7 +2309,7 @@
                                                                     "dataGridLabel": false,
                                                                     "addons": [],
                                                                     "inputType": "text",
-                                                                    "id": "ee7gnl",
+                                                                    "id": "e4yyokk",
                                                                     "defaultValue": ""
                                                                 }
                                                             ],
@@ -2390,7 +2390,7 @@
                                                     "addons": [],
                                                     "tree": false,
                                                     "lazyLoad": false,
-                                                    "id": "eldwatm"
+                                                    "id": "e721att"
                                                 }
                                             ]
                                         }
@@ -2398,7 +2398,7 @@
                                 ],
                                 "header": [],
                                 "caption": "",
-                                "id": "ezfsrf"
+                                "id": "ef7yg58"
                             },
                             {
                                 "label": "(ii) Post-trade review",
@@ -2475,7 +2475,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "eluiqtm",
+                                "id": "e27tok4",
                                 "defaultValue": false
                             },
                             {
@@ -2553,7 +2553,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "e7qh5o6",
+                                "id": "e6ecm4o",
                                 "defaultValue": false
                             },
                             {
@@ -2631,7 +2631,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ez1h1lb",
+                                "id": "eapmvrb",
                                 "defaultValue": false
                             },
                             {
@@ -2709,7 +2709,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "elgqy19",
+                                "id": "e5yviv",
                                 "defaultValue": false
                             },
                             {
@@ -2792,7 +2792,7 @@
                                                 "showWordCount": false,
                                                 "allowMultipleMasks": false,
                                                 "addons": [],
-                                                "id": "ejkcgs",
+                                                "id": "eegzqcp",
                                                 "defaultValue": false
                                             }
                                         ],
@@ -2891,7 +2891,7 @@
                                                 "dataGridLabel": false,
                                                 "addons": [],
                                                 "inputType": "text",
-                                                "id": "ejkof4c",
+                                                "id": "e2xcbwk",
                                                 "defaultValue": ""
                                             }
                                         ],
@@ -2972,7 +2972,7 @@
                                 "addons": [],
                                 "tree": false,
                                 "lazyLoad": false,
-                                "id": "ejg6kci"
+                                "id": "ef6a2ui"
                             },
                             {
                                 "label": "(vii) N/A - the Licensed Corporation does not have any controls in place for monitoring of staff dealing activities. Please provide further details (optional):",
@@ -3049,7 +3049,7 @@
                                 "showWordCount": false,
                                 "allowMultipleMasks": false,
                                 "addons": [],
-                                "id": "ezr24du",
+                                "id": "ej3ndfp",
                                 "defaultValue": false
                             },
                             {
@@ -3138,7 +3138,7 @@
                                 "dataGridLabel": false,
                                 "addons": [],
                                 "inputType": "text",
-                                "id": "esbarlh",
+                                "id": "e90tkzi",
                                 "defaultValue": ""
                             }
                         ]
@@ -3147,81 +3147,7 @@
             ],
             "header": [],
             "caption": "",
-            "id": "e6287ou"
-        },
-        {
-            "type": "button",
-            "label": "Submit",
-            "key": "submit",
-            "size": "md",
-            "block": false,
-            "action": "submit",
-            "disableOnInvalid": true,
-            "theme": "primary",
-            "id": "egs0afv",
-            "input": true,
-            "placeholder": "",
-            "prefix": "",
-            "customClass": "",
-            "suffix": "",
-            "multiple": false,
-            "defaultValue": null,
-            "protected": false,
-            "unique": false,
-            "persistent": false,
-            "hidden": false,
-            "clearOnHide": true,
-            "refreshOn": "",
-            "redrawOn": "",
-            "tableView": false,
-            "modalEdit": false,
-            "dataGridLabel": true,
-            "labelPosition": "top",
-            "description": "",
-            "errorLabel": "",
-            "tooltip": "",
-            "hideLabel": false,
-            "tabindex": "",
-            "disabled": false,
-            "autofocus": false,
-            "dbIndex": false,
-            "customDefaultValue": "",
-            "calculateValue": "",
-            "calculateServer": false,
-            "widget": {
-                "type": "input"
-            },
-            "attributes": {},
-            "validateOn": "change",
-            "validate": {
-                "required": false,
-                "custom": "",
-                "customPrivate": false,
-                "strictDateValidation": false,
-                "multiple": false,
-                "unique": false
-            },
-            "conditional": {
-                "show": null,
-                "when": null,
-                "eq": ""
-            },
-            "overlay": {
-                "style": "",
-                "left": "",
-                "top": "",
-                "width": "",
-                "height": ""
-            },
-            "allowCalculateOverride": false,
-            "encrypted": false,
-            "showCharCount": false,
-            "showWordCount": false,
-            "properties": {},
-            "allowMultipleMasks": false,
-            "addons": [],
-            "leftIcon": "",
-            "rightIcon": ""
+            "id": "eeqlw2n"
         }
     ]
 }
