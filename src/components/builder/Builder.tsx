@@ -13,6 +13,7 @@ const Builder = () => {
     const defaultSchema = fetchedSchema;
     const [schema, setSchema] = useState<FormType>(defaultSchema);
     const onFormChange = (schema: FormType) => {
+        console.log("👦🏻 marco > onFormChange > schema:", schema);
         setSchema(schema);
     };
     return (
@@ -45,7 +46,7 @@ const Builder = () => {
                     <Card.Title className="text-center">
                         As Rendered Form
                     </Card.Title> */}
-            <Form src={schema} />
+            <Form src={schema} onSubmit={(e) => console.log(e)} />
             {/* </Card.Body>
             </Card> */}
         </>

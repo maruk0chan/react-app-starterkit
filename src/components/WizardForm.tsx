@@ -225,19 +225,28 @@ const WizardForm = () => {
                     />
                     <button
                         onClick={async () => {
-                            let result = pages.map(p => p.src);
-                            
+                            let result = pages.map((p) => p.src);
+
                             console.log(result);
-                            navigator.clipboard.writeText(JSON.stringify(result));
+                            navigator.clipboard.writeText(
+                                JSON.stringify(result),
+                            );
                         }}
                     >
                         console log and copy schema
                     </button>
                     <div className="py-3">
-                        <Form src={WizardComponent(stepsComponents)} />
+                        <Form
+                            src={WizardComponent(stepsComponents)}
+                            onSubmit={(data) => console.log(data)}
+                            submission={{ data: { textField: "hello" } }}
+                            options={{
+                                readOnly: true,
+                                viewAsHtml: true, // optional: shows more static HTML
+                            }}
+                        />
                         {/* <Form src={"https://examples.form.io/wizard"} /> */}
                     </div>
-
                 </Col>
             </Row>
         </>
